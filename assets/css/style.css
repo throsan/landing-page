@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+}
+header{
+    height: 20vh;
+    background-image: linear-gradient(-90deg,#001d35, #1c509e);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: ;
+}
+.logo{
+    font-family: Rubik Moonrocks;
+    padding-right: 5vw;
+}
+.logo h1{
+    color: #7cc3f1;    
+
+}
+.logo a{ 
+    display: flex;
+    align-items: center ;
+    padding-right: 50px;
+}
+img{
+    height: 75px;
+    padding-right: 15px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu_item{
+    color: #bdceee;    
+    padding: 10px;
+    font-size: 25px;
+    font-family: chilanka;
+}
+.menu_item:hover{
+    color: #1fd8d8;
+    font-weight: bold;
+    font-size: 28px;
+}
+main{
+    height: 80vh;
+    background-image: url(../img/background.jpg);
+    background-size: 100vw;
+    padding-top: 2vw;
+    display: flex;
+    justify-content: space-around;
+}
+main img{
+    height: 35vw;
+    padding-right: 75px ;
+}
+.product_info{
+    width: 35VW;
+    font-family: chilanka;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.product_button input{
+    background-color: #1c509e;
+    color: #fff;
+    border: 3px solid #84abe5;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 15px;
+    margin-right: 15px;
+}
+footer{
+    background-image: linear-gradient(-90deg,#001d35, #1c509e);
+    font-family: chilanka;
+    display: flex;
+    font-size: 20px;
+    color: #84abe5;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 25px;
+}
